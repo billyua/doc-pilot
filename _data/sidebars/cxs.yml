@@ -3,7 +3,7 @@
 
 entries:
 - title: sidebar
-  product: CX Studio
+  product: Doc Pilot
   version: Summer 2018
   folders:
 
@@ -45,8 +45,16 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Quick Start
+      url: /quick-start.html
+      output: web, pdf
+
     - title: Grouping Data
       url: /grouping-data.html
+      output: web, pdf
+
+    - title: Bar and Column Widget Tips and Tricks
+      url: /bar-and-column-widget-tips-and-tricks.html
       output: web, pdf
 
   - title: Dashboards
@@ -797,8 +805,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Bar and Column Widget Tips and Tricks
-      url: /bar-and-column-widget-tips-and-tricks.html
+    - title: "Advanced Reporting Tips"
+      url: /advanced-reporting-tips.html
       output: web, pdf
 
     - title: "% Parent and % Total"

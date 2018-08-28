@@ -3,13 +3,13 @@ repository: billyua/doc-pilot
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Clarabridge Help
+topnav_title: Pilot Help
 # this appears on the top navigation bar next to the home button
 
-site_title: CX Studio Help
+site_title: Pilot Help
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Clarabridge
+company_name: Doc Pilot
 # this appears in the footer
 
 github_editme_path: 
@@ -35,12 +35,12 @@ exclude:
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: CX Studio Help
+feedback_subject_line: Doc Pilot
 
-feedback_email: billy.ua@gmail.com
+feedback_email: 
 # used as a contact email for the Feedback link in the top navigation bar
 
-# feedback_disable: true
+feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
 # feedback_text: "Need help?"

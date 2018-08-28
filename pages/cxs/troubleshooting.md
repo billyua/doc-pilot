@@ -16,5 +16,4 @@ If the problem you are experiencing is not covered below, please contact [Clarab
 
 If you have not logged out of CX Studio in a while, you may need to clear your browser's cache to make sure very recent CX Designer changes show up in CX Studio. You can do this by clicking in your browser's Reload button or, typically, hitting F5 on your keyboard.
 
-CX Studio caches things like model topics and available attributes to improve reaction speed when you are editing widgets, filters, and other objects. If you or another user makes a change in the data (for example, creates or deletes a topic in a model) since the last time you logged in or switched from CX Designer to CX Studio, consider
-reloading CX Studio in your browser.
+CX Studio caches things like model topics and available attributes to improve reaction speed when you are editing widgets, filters, and other objects. If you or another user makes a change in the data (for example, creates or deletes a topic in a model) since the last time you logged in or switched from CX Designer to CX Studio, consider reloading CX Studio in your browser.
