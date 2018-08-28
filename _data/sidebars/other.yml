@@ -1,0 +1,66 @@
+
+# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
+
+entries:
+- title: other
+  folders:
+
+  - title: Other Links
+    folderitems:
+
+    - title: Automated links bookmark
+      url: /mydoc_hyperlinks.html#automatedlinks
+
+    - title: Bookmark links
+      url: /mydoc_hyperlinks.html#bookmarklinks
+
+    - title: Some link bookmark
+      url: /mydoc_pages.html#someIdTag
+
+    - title: Supported Languages
+      url: /supported-languages.html
+
+    - title: Some link bookmark
+      url: /grouping-data.html#topics
+
+    - title: Some link bookmark
+      url: /grouping-data.html#topic-leaf
+
+    - title: Some link bookmark
+      url: /grouping-data.html#nlp
+
+    - title: Some link bookmark
+      url: /grouping-data.html#words
+
+    - title: Some link bookmark
+      url: /grouping-data.html#associated-words
+
+    - title: Some link bookmark
+      url: /grouping-data.html#enrichment
+
+    - title: Some link bookmark
+      url: /grouping-data.html#language
+
+    - title: Some link bookmark
+      url: /grouping-data.html#time
+
+    - title: Some link bookmark
+      url: /grouping-data.html#attributes
+
+    - title: Some link bookmark
+      url: /grouping-data.html#metrics
+
+    - title: Some link bookmark
+      url: /dashboard-properties.html#about-dashboard-optimization
+
+    - title: Some link bookmark
+      url: /sharing-a-dashboard.html#bulk-sharing
+
+    - title: Some link bookmark
+      url: /sharing-a-book.html#bulk-sharing
+
+    - title: Some link bookmark
+      url: /sharing-a-book.html#how-to-stop-sharing-a-book
+
+    - title: Some link bookmark
+      url: /sharing-a-dashboard.html#how-to-stop-sharing-a-dashboard

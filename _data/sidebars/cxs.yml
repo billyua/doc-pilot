@@ -1,0 +1,894 @@
+
+# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
+
+entries:
+- title: sidebar
+  product: CX Studio
+  version: Summer 2018
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get Started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: About CX Studio
+      url: /about-cx-studio.html
+      output: web, pdf
+
+  - title: What's New
+    output: web, pdf
+    folderitems:
+
+    - title: Summer 2018 Release notes
+      url: /release-notes-summer-2018.html
+      output: web, pdf
+
+  - title: CX Studio Basics
+    output: web, pdf
+    folderitems:
+
+    - title: Grouping Data
+      url: /grouping-data.html
+      output: web, pdf
+
+  - title: Dashboards
+    output: web, pdf
+    folderitems:
+
+    - title: About Dashboards
+      url: /about-dashboards.html
+      output: web, pdf
+
+    - title: Creating a Dashboard
+      url: /creating-a-dashboard.html
+      output: web, pdf
+
+    - title: Editing a Dashboard
+      url: /editing-a-dashboard.html
+      output: web, pdf
+
+    - title: Dashboard Properties
+      url: /dashboard-properties.html
+      output: web, pdfs
+
+    - title: Sharing a Dashboard
+      url: /sharing-a-dashboard.html
+      output: web, pdf
+
+    - title: Changing the Dashboard Owner
+      url: /changing-the-dashboard-owner.html
+      output: web, pdf
+
+    - title: Duplicating a Dashboard
+      url: /duplicating-a-dashboard.html
+      output: web, pdf
+
+      subfolders:
+      - title: Dashboard Filters
+        output: web
+        subfolderitems:
+
+        - title: About Dashboard Filters
+          url: /about-dashboard-filters.html
+          output: web
+
+        - title: Using Dashboard Filters
+          url: /using-dashboard-filters.html
+          output: web
+
+        - title: Defining Dashboard Filters
+          url: /defining-dashboard-filters.html
+          output: web
+
+        - title: Dashboard Filters Logic
+          url: /dashboard-filters-logic.html
+          output: web
+
+        - title: Dashboard Filters Visibility
+          url: /dashboard-filters-visibility.html
+          output: web
+
+    - title: Personalizing a Dashboard
+      url: /personalizing-a-dashboard.html
+      output: web, pdfs
+
+    - title: Discussing a Dashboard
+      url: /discussing-a-dashboard.html
+      output: web, pdfs
+
+      subfolders:
+      - title: Dashboard Explorer
+        output: web
+        subfolderitems:
+
+        - title: About Dashboard Explorer
+          url: /about-dashboard-explorer.html
+          output: web
+
+        - title: Using Search
+          url: /using-search.html
+          output: web
+
+        - title: Hiding Dashboards and Books
+          url: /hiding-dashboards-and-books.html
+          output: web
+
+        - title: Creating a Folder
+          url: /creating-a-folder.html
+          output: web
+
+        - title: Moving a Dashboard to a Folder
+          url: /moving-a-dashboard-to-a-folder.html
+          output: web
+
+        - title: Deleting a Folder
+          url: /deleting-a-folder.html
+          output: web
+
+        - title: Adding to Favorites
+          url: /adding-to-favorites.html
+          output: web
+
+    - title: Dashboard Templates
+      url: /dashboard-templates.html
+      output: web, pdf
+
+    - title: Deleting a Dashboard
+      url: /deleting-a-dashboard.html
+      output: web, pdfs
+
+      subfolders:
+      - title: Dashboard Versions
+        output: web
+        subfolderitems:
+
+        - title: About Dashboard Versions
+          url: /about-dashboard-versions.html
+          output: web
+
+        - title: Restoring a Dashboard
+          url: /restoring-a-dashboard.html
+          output: web
+
+        - title: Saving a Dashboard Version
+          url: /saving-a-dashboard-version.html
+          output: web
+
+    - title: Rating Dashboards and Books
+      url: /rating-dashboards-and-books.html
+      output: web, pdf
+
+      subfolders:
+      - title: Books
+        output: web
+        subfolderitems:
+
+        - title: About Books
+          url: /about-books.html
+          output: web
+
+        - title: Creating a Book
+          url: /creating-a-book.html
+          output: web
+
+        - title: Sharing a Book
+          url: /sharing-a-book.html
+          output: web
+
+        - title: Editing a Book
+          url: /editing-a-book.html
+          output: web
+
+        - title: Duplicating a Book
+          url: /duplicating-a-book.html
+          output: web
+
+        - title: Exporting All Tab Data
+          url: /exporting-all-tab-data.html
+          output: web
+
+        - title: Exporting Tab to PDF
+          url: /exporting-tab-to-pdf.html
+          output: web
+
+        - title: Deleting a Book
+          url: /deleting-a-book.html
+          output: web
+
+    - title: Command Center Mode
+      url: /command-center-mode.html
+      output: web, pdf
+
+    - title: Teamwork with Dashboards
+      url: /teamwork-with-dashboards.html
+      output: web, pdf
+
+      subfolders:
+      - title: Dashboard Scheduling
+        output: web
+        subfolderitems:
+
+        - title: About Dashboard Scheduling
+          url: /about-dashboard-scheduling.html
+          output: web
+
+        - title: Scheduling a Dashboard Refresh
+          url: /scheduling-a-dashboard-refresh.html
+          output: web
+
+        - title: Scheduling a PDF Distribution
+          url: /scheduling-a-pdf-distribution.html
+          output: web
+
+        - title: Managing Dashboard Schedules
+          url: /managing-dashboard-schedules.html
+          output: web
+
+        - title: Viewing Dashboard Schedules
+          url: /viewing-dashboard-schedules.html
+          output: web
+
+  - title: Widgets
+    output: web, pdf
+    folderitems:
+
+    - title: About Widgets
+      url: /about-widgets.html
+      output: web, pdf
+
+    - title: Adding a Widget
+      url: /adding-a-widget.html
+      output: web, pdf
+
+      subfolders:
+      - title: Widget Types
+        output: web
+        subfolderitems:
+
+        - title: Widget Types Overview
+          url: /widget-types-overview.html
+          output: web
+
+        - title: Preview Widget
+          url: /preview-widget.html
+          output: web
+
+        - title: Table Widget
+          url: /table-widget.html
+          output: web
+
+        - title: Metric Widget
+          url: /metric-widget.html
+          output: web
+
+        - title: Line Widget
+          url: /line-widget.html
+          output: web
+
+        - title: Bar Widget
+          url: /bar-widget.html
+          output: web
+
+        - title: Heatmap Widget
+          url: /heatmap-widget.html
+          output: web
+
+        - title: Cloud Widget
+          url: /cloud-widget.html
+          output: web
+
+        - title: Pie Widget
+          url: /pie-widget.html
+          output: web
+
+        - title: Scatter Widget
+          url: /scatter-widget.html
+          output: web
+
+        - title: Text Block Widget
+          url: /text-block-widget.html
+          output: web
+
+        - title: Label Widget
+          url: /label-widget.html
+          output: web
+
+        - title: Image Widget
+          url: /image-widget.html
+          output: web
+
+        - title: Video Widget
+          url: /video-widget.html
+          output: web
+
+        - title: Page Break Widget
+          url: /page-break-widget.html
+          output: web
+
+        - title: Basic Report Widget (retired)
+          url: /basic-report-widget.html
+          output: web
+
+        - title: Double Aggregation Widget (retired)
+          url: /double-aggregation-widget.html
+          output: web
+
+        - title: Trend Report Widget (retired)
+          url: /trend-report-widget.html
+          output: web
+
+    - title: Zooming and Pushing Widgets
+      url: /zooming-and-pushing-widgets.html
+      output: web, pdf
+
+    - title: Editing a Widget
+      url: /editing-a-widget.html
+      output: web, pdf
+
+    - title: Filtering a Widget
+      url: /filtering-a-widget.html
+      output: web, pdfs
+
+    - title: Widget as Filter
+      url: /widget-as-filter.html
+      output: web, pdf
+
+    - title: Copying a Widget
+      url: /copying-a-widget.html
+      output: web, pdf
+
+    - title: Drilling Widgets
+      url: /drilling-widgets.html
+      output: web, pdf
+
+    - title: Drilling Options (2.0)
+      url: /drilling-options.html
+      output: web, pdfs
+
+    - title: Exporting Drilling to Dashboard
+      url: /exporting-drilling-to-dashboard.html
+      output: web, pdf
+
+    - title: Document Explorer
+      url: /document-explorer.html
+      output: web, pdf
+
+    - title: Report Colors
+      url: /report-colors.html
+      output: web, pdfs
+
+    - title: Recolor Items
+      url: /recolor-items.html
+      output: web, pdf
+
+    - title: Adding a Reference Line
+      url: /adding-a-reference-line.html
+      output: web, pdf
+
+    - title: Defining Report Quadrants
+      url: /defining-report-quadrants.html
+      output: web, pdf
+
+    - title: Widget Ownership
+      url: /widget-ownership.html
+      output: web, pdfs
+
+      subfolders:
+      - title: Exporting Reports
+        output: web
+        subfolderitems:
+
+        - title: Exporting Data from CX Studio
+          url: /exporting-data-from-cx-studio.html
+          output: web
+
+        - title: Exporting Single Widget to Excel
+          url: /exporting-single-widget-to-excel.html
+          output: web
+
+        - title: Exporting All Widgets to Excel
+          url: /exporting-all-widgets-to-excel.html
+          output: web
+
+        - title: Exporting Dashboard to PDF
+          url: /exporting-dashboard-to-pdf.html
+          output: web
+
+        - title: Exporting Document Preview to Excel
+          url: /exporting-document-preview-to-excel.html
+          output: web
+
+    - title: Deleting a Widget
+      url: /deleting-a-widget.html
+      output: web, pdf
+
+    - title: Maximum Widgets per Dashboard
+      url: /maximum-widgets-per-dashboard.html
+      output: web, pdf
+
+    - title: Widget Stats Mode
+      url: /widget-stats-mode.html
+      output: web, pdfs
+
+    - title: Refreshing Report Data
+      url: /refreshing-report-data.html
+      output: web, pdf
+
+    - title: How Caching Works
+      url: /how-caching-works.html
+      output: web, pdf
+
+    - title: Refreshing a Widget (1.0)
+      url: /refreshing-a-widget.html
+      output: web, pdf
+
+    - title: Drilling Options (1.0)
+      url: /drilling-options-1.0.html
+      output: web, pdfs
+
+  - title: Filters
+    output: web, pdf
+    folderitems:
+
+    - title: About Filters
+      url: /about-filters.html
+      output: web, pdf
+
+    - title: Filter Management
+      url: /filter-management.html
+      output: web, pdf
+
+    - title: Creating a Filter
+      url: /creating-a-filter.html
+      output: web, pdf
+
+    - title: Editing a Filter
+      url: /editing-a-filter.html
+      output: web, pdfs
+
+    - title: Sharing a Filter
+      url: /sharing-a-filter.html
+      output: web, pdf
+
+    - title: Viewing a Filter
+      url: /viewing-a-filter.html
+      output: web, pdf
+
+    - title: Changing the Filter Owner
+      url: /changing-the-filter-owner.html
+      output: web, pdf
+
+    - title: Duplicating a Filter
+      url: /duplicating-a-filter.html
+      output: web, pdfs
+
+    - title: Deleting a Filter
+      url: /deleting-a-filter.html
+      output: web, pdf
+
+    - title: Creating a Folder for Filters
+      url: /creating-a-folder-for-filters.html
+      output: web, pdfs
+
+    - title: Moving a Filter to a Folder
+      url: /moving-a-filter-to-a-folder.html
+      output: web, pdf
+
+    - title: Date Range Filters
+      url: /date-range-filters.html
+      output: web, pdf
+
+    - title: Period to Date vs. Current Period
+      url: /period-to-date-vs-current-period.html
+      output: web, pdf
+
+    - title: Defining Custom Date Ranges
+      url: /defining-custom-date-ranges.html
+      output: web, pdfs
+
+  - title: Organization Hierarchy
+    output: web, pdf
+    folderitems:
+
+    - title: About Organization Hierarchy
+      url: /about-organization-hierarchy.html
+      output: web, pdf
+
+    - title: Adding a Hierarchy
+      url: /adding-a-hierarchy.html
+      output: web, pdf
+
+    - title: Uploading a Structure
+      url: /uploading-a-structure.html
+      output: web, pdf
+
+    - title: Uploading Data Filters
+      url: /uploading-data-filters.html
+      output: web, pdfs
+
+    - title: Uploading User Mappings
+      url: /uploading-user-mappings.html
+      output: web, pdf
+
+    - title: Activating a Hierarchy
+      url: /activating-a-hierarchy.html
+      output: web, pdf
+
+    - title: Removing a Hierarchy
+      url: /removing-a-hierarchy.html
+      output: web, pdf
+
+  - title: Alerts
+    output: web, pdf
+    folderitems:
+
+    - title: About Alerts
+      url: /about-alerts.html
+      output: web, pdf
+
+    - title: Subscribing to Alerts
+      url: /subscribing-to-alerts.html
+      output: web, pdf
+
+    - title: Viewing Alerts
+      url: /viewing-alerts.html
+      output: web, pdf
+
+    - title: About Case Management
+      url: /about-case-management.html
+      output: web, pdfs
+
+  - title: Metrics
+    output: web, pdf
+    folderitems:
+
+    - title: About Metrics
+      url: /about-metrics.html
+      output: web, pdf
+
+    - title: Metrics Management
+      url: /metrics-management.html
+      output: web, pdf
+
+    - title: Top Box Metric
+      url: /top-box-metric.html
+      output: web, pdf
+
+    - title: Bottom Box Metric
+      url: /bottom-box-metric.html
+      output: web, pdfs
+
+    - title: Satisfaction Metric
+      url: /satisfaction-metric.html
+      output: web, pdf
+
+    - title: Filtered Metric
+      url: /filtered-metric.html
+      output: web, pdf
+
+    - title: Custom Math Metric
+      url: /custom-math-metric.html
+      output: web, pdf
+
+    - title: Editing a Metric
+      url: /editing-a-metric.html
+      output: web, pdfs
+
+    - title: Sharing a Metric
+      url: /sharing-a-metric.html
+      output: web, pdf
+
+    - title: Viewing a Metric
+      url: /viewing-a-metric.html
+      output: web, pdfs
+
+    - title: Changing the Metric Owner
+      url: /changing-the-metric-owner.html
+      output: web, pdf
+
+    - title: Duplicating a Metric
+      url: /duplicating-a-metric.html
+      output: web, pdf
+
+    - title: Deleting a Metric
+      url: /deleting-a-metric.html
+      output: web, pdf
+
+    - title: Creating a Folder for Metrics
+      url: /creating-a-folder-for-metrics.html
+      output: web, pdfs
+
+    - title: Moving a Metric to a Folder
+      url: /moving-a-metric-to-a-folder.html
+      output: web, pdfs
+
+  - title: Users and Groups
+    output: web, pdf
+    folderitems:
+
+    - title: User Management
+      url: /user-management.html
+      output: web, pdf
+
+    - title: Registering a User
+      url: /registering-a-user.html
+      output: web, pdf
+
+    - title: Editing a User Account
+      url: /editing-a-user-account.html
+      output: web, pdf
+
+    - title: Managing Permissions
+      url: /managing-permissions.html
+      output: web, pdfs
+
+    - title: Permissions
+      url: /permissions.html
+      output: web, pdf
+
+    - title: License Types
+      url: /license-types.html
+      output: web, pdf
+
+    - title: Linking a User to a Content Provider
+      url: /linking-a-user-to-a-content-provider.html
+      output: web, pdf
+
+    - title: Data Access
+      url: /data-access.html
+      output: web, pdfs
+
+    - title: Removing a User Account
+      url: /removing-a-user-account.html
+      output: web, pdf
+
+    - title: Creating a Group
+      url: /creating-a-group.html
+      output: web, pdfs
+
+    - title: Adding and Removing Group Members
+      url: /adding-and-removing-group-members.html
+      output: web, pdf
+
+    - title: Deleting a Group
+      url: /deleting-a-group.html
+      output: web, pdf
+
+    - title: User Preferences
+      url: /user-preferences.html
+      output: web, pdf
+
+    - title: Login History
+      url: /login-history.html
+      output: web, pdfs
+
+    - title: Application Switcher
+      url: /application-switcher.html
+      output: web, pdfs
+
+    - title: Changing Your Picture
+      url: /changing-your-picture.html
+      output: web, pdfs
+
+  - title: Account Settings
+    output: web, pdf
+    folderitems:
+
+    - title: About Master Accounts
+      url: /about-master-accounts.html
+      output: web, pdf
+
+      subfolders:
+      - title: Master Account Properties
+        output: web
+        subfolderitems:
+
+        - title: Master Account Properties Overview
+          url: /master-account-properties-overview.html
+          output: web
+
+        - title: Using Custom SMTP Server
+          url: /using-custom-smtp-server.html
+          output: web
+
+        - title: Allowed Email Domains
+          url: /allowed-email-domains.html
+          output: web
+
+        - title: Password Settings
+          url: /password-settings.html
+          output: web
+
+        - title: Displaying Attributes in Alerts
+          url: /displaying-attributes-in-alerts.html
+          output: web
+
+        - title: Hiding Attributes for Document Explorer
+          url: /hiding-attributes-for-document-explorer.html
+          output: web
+
+        - title: Hiding Attributes and Models in Drill Menu
+          url: /hiding-attributes-and-models-in-drill-menu.html
+          output: web
+
+        - title: Enabling Dashboard Discussions
+          url: /enabling-dashboard-discussions.html
+          output: web
+
+        - title: Enabling Dashboard Ratings
+          url: /enabling-dashboard-ratings.html
+          output: web
+
+        - title: Enabling Dashboard Templates
+          url: /enabling-dashboard-templates.html
+          output: web
+
+        - title: Dashboard Optimization
+          url: /dashboard-optimization.html
+          output: web
+
+        - title: Enabling the Ideas Forum
+          url: /enabling-the-ideas-forum.html
+          output: web
+
+        - title: Using Custom Branding Settings
+          url: /using-custom-branding-settings.html
+          output: web
+
+        - title: Color Palette
+          url: /color-palette.html
+          output: web
+
+    - title: Security Audit
+      url: /security-audit.html
+      output: web, pdf
+
+    - title: Actions Logged
+      url: /actions-logged.html
+      output: web, pdfs
+
+    - title: Master Account Overview
+      url: /master-account-overview.html
+      output: web, pdfs
+
+    - title: Contracts
+      url: /contracts.html
+      output: web, pdfs
+
+  - title: Ideas Forum
+    output: web, pdf
+    folderitems:
+
+    - title: About the Ideas Forum
+      url: /about-the-ideas-forum.html
+      output: web, pdf
+
+    - title: Posting an Idea
+      url: /posting-an-idea.html
+      output: web, pdf
+
+    - title: Ideas Workflow
+      url: /ideas-workflow.html
+      output: web, pdf
+
+    - title: Voting on Ideas
+      url: /voting-on-ideas.html
+      output: web, pdfs
+
+  - title: Advanced Reporting Tips
+    output: web, pdf
+    folderitems:
+
+    - title: Bar and Column Widget Tips and Tricks
+      url: /bar-and-column-widget-tips-and-tricks.html
+      output: web, pdf
+
+    - title: "% Parent and % Total"
+      url: /percentage-metrics.html
+      output: web, pdf
+
+    - title: Using the n=total
+      url: /using-the-n-total.html
+      output: web, pdf
+
+    - title: Reporting Calendar
+      url: /reporting-calendar.html
+      output: web, pdfs
+
+    - title: Records without Text
+      url: /records-without-text.html
+      output: web, pdfs
+
+    - title: Sentiment Visualization
+      url: /sentiment-visualization.html
+      output: web, pdfs
+
+    - title: Sentiment Bands
+      url: /sentiment-bands.html
+      output: web, pdfs
+
+    - title: 100% Stacking
+      url: /100-percent-stacking.html
+      output: web, pdfs
+
+    - title: Stack Size
+      url: /stack-size.html
+      output: web, pdfs
+
+    - title: Stacked Area Graph
+      url: /stacked-area-graph.html
+      output: web, pdfs
+
+    - title: "Period over Period: Side by Side vs. Stacked"
+      url: /period-over-period-side-by-side-vs-stacked.html
+      output: web, pdfs
+
+    - title: Time Zones in Reports
+      url: /time-zones-in-reports.html
+      output: web, pdfs
+
+    - title: Topic Filter vs. Topic Inclusion List
+      url: /topic-filter-vs-topic-inclusion-list.html
+      output: web, pdfs
+
+    - title: Custom Math Metric Examples
+      url: /custom-math-metric-examples.html
+      output: web, pdfs
+
+    - title: Widget as Filter Examples
+      url: /widget-as-filter-examples.html
+      output: web, pdfs
+
+    - title: Making Equal-Sized Reporting Items
+      url: /making-equal-sized-reporting-items.html
+      output: web, pdfs
+
+    - title: Drawing Clouds
+      url: /drawing-clouds.html
+      output: web, pdfs
+
+    - title: Trend Report Limits
+      url: /trend-report-limits.html
+      output: web, pdfs
+
+    - title: About Grouping Cost
+      url: /about-grouping-cost.html
+      output: web, pdfs
+
+    - title: Using HTML in Text Blocks
+      url: /using-html-in-text-blocks.html
+      output: web, pdfs
+
+    - title: Multi-Level Sorting
+      url: /multi-level-sorting.html
+      output: web, pdfs
+
+  - title: System Requirements
+    output: web, pdf
+    folderitems:
+
+    - title: Supported Platforms
+      url: /supported-platforms.html
+      output: web, pdf
+
+    - title: Mobile vs. Desktop
+      url: /mobile-vs-desktop.html
+      output: web, pdf
