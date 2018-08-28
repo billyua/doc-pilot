@@ -3,7 +3,7 @@ title: "Editing a Dashboard"
 tags: [sample1, sample2]
 keywords: keyword1, keyword2, keyword3
 last_updated: Month day, year
-summary: "optional summary here"
+summary: "You can change dashboard properties and modify its widgets."
 sidebar: cxs
 permalink: editing-a-dashboard.html
 ---
