@@ -892,3 +892,11 @@ entries:
     - title: Mobile vs. Desktop
       url: /mobile-vs-desktop.html
       output: web, pdf
+
+  - title: Troubleshooting
+    output: web, pdf
+    folderitems:
+
+    - title: Troubleshooting
+      url: /troubleshooting.html
+      output: web, pdf
