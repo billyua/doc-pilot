@@ -33,7 +33,7 @@ In CX Studio, you can group data into meaningful segments using the following cr
 
 * [Metrics][grouping-data.html#metrics]
 
-{% include tip.html content="In most reporting widgets you will find the grouping options in the **GROUP BY** drop-down list. Exceptions include a Table report, where you select data groupings in the GROUPINGS section and move them to the Applied Groupings section, and a Heatmap report, where groupings are called BOXES." %}
+{% include tip.html content="In most reporting widgets you will find the grouping options in the **GROUP BY** drop-down list. Exceptions include a [Table report][table-widget], where you select data groupings in the GROUPINGS section and move them to the Applied Groupings section, and a [Heatmap report][heatmap-widget], where groupings are called BOXES." %}
 
 ## Topics
 
@@ -43,7 +43,10 @@ Clarabridge assigns categories to sentences found in unstructured text using key
 
 ## Topic Leaf
 
-Similar to Topics, the **Topic Leaf** option lets you group data by the categories derived from customer feedback. The difference between topics and topic leaves is their relative position in the classification hierarchy: topics usually cover general, high-level themes, while topic leaves provide more specific, lower-level subcategories.
+Similar to Topics, the **Topic Leaf** option lets you group data by the categories derived from customer feedback. Topic leaves are just categories with no subcategories. Topics usually cover general,
+high-level themes, while topic leaves provide more specific, lower-level subcategories.
+
+{% include image.html file="tree-leaves.png" %}
 
 Grouping data by topic leaves provides an overview of specific themes your customers are talking about.
 
@@ -63,9 +66,9 @@ The **Words** stack lets you group data by words or specific types of words ment
 
 * **CB Email Address.** Group data by email addresses mentioned in feedback.
 
-* **CB Emoticon.** Group data by emojis and emoticons used in it.
+* **CB Emoticon.** Group data by emojis and emoticons used in feedback.
 
-* **CB Industry.** Group data by industry relevance.
+* **CB Industry.** Group data by related industry.
 
 * **CB Person.** Group data by names of people mentioned in feedback.
 
@@ -85,11 +88,11 @@ The **Enrichment** stack lets you group data by types of content detected in cus
 
 * **CB Detected Features.** Group data by types of NLP features detected (for example, data containing industry or brand mentions).
 
-* **CB Sentence Type.** Group data by the type of sentence identified by Clarabridge (for example, CRY FOR HELP, REQUEST, or SUGGESTION).
+* **CB Sentence Type.** Group data by the type of sentence (or intent) identified by Clarabridge (for example, CRY FOR HELP, REQUEST, or SUGGESTION).
 
-* **Content Type.** Group data by it being contentful or noncontentful as automatically identified by Clarabridge.
+* **Content Type.** Group data by it being Contentful or Non-Contentful as automatically identified by Clarabridge.
 
-* **Content Subtype.** Further group noncontentful data by its subtypes (such as ads, coupons, article links, or "undefined" type). Note that for contentful records, subtype is always contentful as well.
+* **Content Subtype.** Further group Non-Contentful data by its subtypes (such as ads, coupons, article links, or "undefined" type). Note that for Contentful records, subtype is always Contentful as well.
 
 ### Language
 
@@ -97,13 +100,13 @@ The **Language** stack lets you group data by feedback language.
 
 * **Auto-detected language.** Group data by languages automatically detected by Clarabridge (if language auto-detection is enabled for a project).
 
-* **Processed language.** Group data by languages in which feedback was actually processed. Languages not supported by Clarabridge are marked as OTHER. For a list of languages supported by Clarabridge refer to [Supported Languages][supported-languages].
+* **Processed language.** Group data by languages in which feedback was actually processed. Languages not supported by Clarabridge language detection are marked as OTHER. For a list of languages supported by Clarabridge refer to [Supported Languages][supported-languages].
 
 ## Time
 
 The **Time** stack lets you group data by date and time.
 
-First, you need to select a time attribute—**Document Date** is generally your go-to date, but other types of dates may be available in your feedback. Then, choose a time scale (year, quarter, month etc.)
+First, you need to select a time attribute---**Document Date** is generally your go-to date, but other types of dates may be available in your feedback. Then, choose the periods you want to see (years, quarters, months etc.)
 
 ## Attributes
 
