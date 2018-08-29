@@ -432,8 +432,8 @@ entries:
       url: /maximum-widgets-per-dashboard.html
       output: web, pdf
 
-    - title: Widget Stats Mode
-      url: /widget-stats-mode.html
+    - title: Stats Mode
+      url: /stats-mode.html
       output: web, pdfs
 
     - title: Refreshing Report Data
