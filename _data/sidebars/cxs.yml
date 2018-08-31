@@ -512,6 +512,10 @@ entries:
       url: /defining-custom-date-ranges.html
       output: web, pdfs
 
+    - title: Hiding Filters
+      url: /hiding-filters.html
+      output: web, pdfs
+
   - title: Organization Hierarchy
     output: web, pdf
     folderitems:
@@ -626,6 +630,10 @@ entries:
 
     - title: Moving a Metric to a Folder
       url: /moving-a-metric-to-a-folder.html
+      output: web, pdfs
+
+    - title: Hiding Metrics
+      url: /hiding-metrics.html
       output: web, pdfs
 
   - title: Users and Groups
