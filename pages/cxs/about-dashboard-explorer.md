@@ -70,7 +70,7 @@ You can perform the following actions:
 
 * [Create a folder][creating-a-folder]
 
-* [Move an object to a folder][moving-to-a-folder]
+* [Move an object to a folder][moving-a-dashboard-to-a-folder]
 
 * [Delete a folder][deleting-a-folder]
 {% include links.html %}
